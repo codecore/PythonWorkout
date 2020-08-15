@@ -7,11 +7,11 @@ def guessing_game():
         user_guess = int(input('What is your guess?'))
 
         if user_guess == answer:
-            print(f'Right! The answer is (user_guess)')
+            print(f'Right! The answer is {user_guess}')
             break
 
         if user_guess < answer:
-            print(f'You guess of (user_guess) is too low!')
+            print(f'You guess of {user_guess} is too low!')
         else:
-            print(f'Your guess of (user_guess) is to high!')
+            print(f'Your guess of {user_guess} is to high!')
 guessing_game()
